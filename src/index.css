@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&display=swap');
+
+body {
+    background-color: #E7F6FF;
+    font-family: 'Inter', sans-serif;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container {
+    padding: 24px 80px 24px 40px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+     background-color: #EAEAEA;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 36px;
+}
+

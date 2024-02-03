@@ -1,0 +1,19 @@
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border:  1px solid #F3F3F3;
+    padding: 15px;
+    border-radius: 10px;
+     outline: none;
+     font-size: 14px;
+     color: #C4C4C4;
+}
